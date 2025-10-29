@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Bot, FileSpreadsheet, Wallet, Sun, Moon, ArrowUp, Facebook, Instagram, Twitter } from "lucide-react";
+import { ArrowRight, Bot, FileSpreadsheet, Wallet, Sun, Moon, ArrowUp } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Button = ({ children, className = "", ...props }: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
@@ -111,7 +111,6 @@ export default function Home() {
         <section id="about" className="py-30 max-w-[1400px] mx-auto px-6 sm:px-10 flex flex-col md:flex-row items-center gap-12 md:gap-16">
           <motion.div initial={{ opacity: 0, x: -60 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="md:w-1/2 flex justify-center">
             <img src="/2.webp" alt="Tentang KasMini" className="rounded-2xl w-[280px] sm:w-[400px] md:w-[480px] object-cover bg-gradient-to-tr from-blue-600/10 to-cyan-900/10" />
-            
           </motion.div>
 
           <motion.div initial={{ opacity: 0, x: 60 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="md:w-1/2 text-center md:text-left">
