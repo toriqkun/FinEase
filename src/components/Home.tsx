@@ -56,7 +56,7 @@ export default function Home() {
               Catat, Kelola, dan <br /> <span className="text-blue-600">Otomatiskan Keuanganmu</span>
             </h1>
             <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg mb-8">
-              KasMini membantu kamu mencatat pengeluaran harian, mingguan, dan bulanan langsung lewat <b>Telegram</b> — semua data tersimpan otomatis di <b>Google Spreadsheet</b>.
+              FinEase membantu kamu mencatat pengeluaran harian, mingguan, dan bulanan langsung lewat <b>Telegram</b> — semua data tersimpan otomatis di <b>Google Spreadsheet</b>.
             </p>
             <Button
               onClick={handleTelegram}
@@ -84,12 +84,12 @@ export default function Home() {
                 {
                   icon: <Bot className="h-10 w-10 text-blue-600 mx-auto" />,
                   title: "Catat via Telegram",
-                  desc: "Kirim pesan ke bot KasMini untuk menambah pengeluaran tanpa buka aplikasi lain.",
+                  desc: "Kirim pesan ke bot FinEase untuk menambah pengeluaran tanpa buka aplikasi lain.",
                 },
                 {
                   icon: <FileSpreadsheet className="h-10 w-10 text-emerald-500 mx-auto" />,
                   title: "Tersinkron ke Google Sheets",
-                  desc: "Semua transaksi tersimpan otomatis dan rapi di spreadsheet kamu.",
+                  desc: "Semua transaksi tersimpan otomatis dan rapi di Google Spreadsheet.",
                 },
                 {
                   icon: <Wallet className="h-10 w-10 text-blue-600 mx-auto" />,
@@ -119,7 +119,7 @@ export default function Home() {
               FinEase lahir untuk membantu kamu mengelola keuangan pribadi tanpa ribet. Dengan menggabungkan kekuatan <b>n8n automation</b>, <b>Telegram bot</b>, dan <b>Google Sheets</b>, semua
               pencatatan pengeluaran menjadi otomatis dan mudah diakses kapan saja.
             </p>
-            <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed">Fokus pada hidupmu, biarkan KasMini mengurus keuangannya.</p>
+            <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed">Fokus pada hidupmu, biarkan FinEase mengurus keuangannya.</p>
           </motion.div>
         </section>
 
