@@ -56,7 +56,7 @@ export default function Home() {
               Catat, Kelola, dan <br /> <span className="text-blue-600">Otomatiskan Keuanganmu</span>
             </h1>
             <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg mb-8">
-              FinEase membantu kamu mencatat pengeluaran harian, mingguan, dan bulanan langsung lewat <b>Telegram</b> — semua data tersimpan otomatis di <b>Google Spreadsheet</b>.
+              FinEase membantu kamu mencatat pengeluaran harian, mingguan, dan bulanan langsung lewat <b>Telegram</b> — semua data tersimpan otomatis.
             </p>
             <Button
               onClick={handleTelegram}
@@ -88,8 +88,8 @@ export default function Home() {
                 },
                 {
                   icon: <FileSpreadsheet className="h-10 w-10 text-emerald-500 mx-auto" />,
-                  title: "Tersinkron ke Google Sheets",
-                  desc: "Semua transaksi tersimpan otomatis dan rapi di Google Spreadsheet.",
+                  title: "Data Otomatis Tersimpan",
+                  desc: "Semua transaksi tersimpan otomatis dengan Aman dan Rapi.",
                 },
                 {
                   icon: <Wallet className="h-10 w-10 text-blue-600 mx-auto" />,
@@ -116,8 +116,8 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, x: 60 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="md:w-1/2 text-center md:text-left">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-blue-600">Tentang FinEase</h2>
             <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed mb-6">
-              FinEase lahir untuk membantu kamu mengelola keuangan pribadi tanpa ribet. Dengan menggabungkan kekuatan <b>n8n automation</b>, <b>Telegram bot</b>, dan <b>Google Sheets</b>, semua
-              pencatatan pengeluaran menjadi otomatis dan mudah diakses kapan saja.
+              FinEase hadir untuk membantu kamu memahami dan mengatur arus keuangan pribadi dengan lebih bijak. Di tengah kesibukan dan banyaknya pengeluaran tak terduga, FinEase membantu kamu melihat
+              dengan jelas ke mana uangmu pergi, sehingga kamu bisa membuat keputusan finansial yang lebih cerdas setiap hari. Dengan FinEase, kamu tidak lagi bingung kenapa saldo cepat habis, kini semuanya tercatat, teratur, dan mudah dipantau.
             </p>
             <p className="text-slate-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed">Fokus pada hidupmu, biarkan FinEase mengurus keuangannya.</p>
           </motion.div>
